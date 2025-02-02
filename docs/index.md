@@ -8,7 +8,7 @@
 
 
 -   Free software: MIT license
--   Documentation: <https://lalgonzales.github.io/gishndev_demo>
+-   Documentation: <https://lalgonzales.github.io/gishndev-demo>
     
 
 ## Features
