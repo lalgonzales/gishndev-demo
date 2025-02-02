@@ -6,7 +6,7 @@ import io
 from os import path as op
 from setuptools import setup, find_packages
 
-with open('README.md') as readme_file:
+with open('README.md', encoding='utf-8') as readme_file:
     readme = readme_file.read()
 
 here = op.abspath(op.dirname(__file__))
@@ -37,6 +37,8 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
     ],
     description="Package for test the creation of python packages",
     install_requires=install_requires,
@@ -45,9 +47,9 @@ setup(
     long_description=readme,
     long_description_content_type='text/markdown',
     include_package_data=True,
-    keywords='gishndev_demo',
+    keywords='gishndev-demo',
     name='gishndev-demo',
-    packages=find_packages(include=['gishndev_demo', 'gishndev_demo.*']),
+    packages=find_packages(include=['gishndev-demo', 'gishndev-demo.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
